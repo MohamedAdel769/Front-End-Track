@@ -25,11 +25,22 @@ body{
     margin-bottom: 20px;
 }
 
+.ad{
+    background-color: tomato;
+    border: 2px solid #222;
+    border-radius: 25px;
+    width: 100px;
+    position: fixed;
+    top: 20px;
+    right: 15px;
+}
+
 #img-div{
     background-color: whitesmoke;
     margin: 20px 8px;
     border-radius: 5px;
     padding: 15px;
+    outline: 5px double wheat;
 }
 
 #image{
