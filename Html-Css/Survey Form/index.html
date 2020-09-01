@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <h1 id="title">Join the DREAM team</h1>
+        <p id="description"><a href="https://www.youtube.com/channel/UCXwSN7CvN6QxXCiKovRX-CA" target="_blank">Slaver El
+                Ninja</a> is now hiring pro players!</p>
+
+        <form action="#" id="survey-form" method="POST">
+            <label for="name" id="name-label">Uplay ID</label>
+            <input type="text" id="name" required placeholder="id769">
+
+            <label for="email" id="email-label">Email</label>
+            <input type="text" id="email" pattern=".+@gmail.com" required placeholder="Email@gmail.com">
+
+            <label for="" id="number-label">Age</label>
+            <input type="number" id="number" placeholder="+18" min="18" max="30">
+
+            <label for="rank">Choose your rank</label>
+            <select name="rank" id="dropdown">
+                <option disabled selected value="disabled">
+                    Select an option
+                </option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+                <option value="plat">Platinum</option>
+            </select>
+
+            <br><br>
+            <label for="">Choose your gender</label>
+            <label for="male">
+                <input type="radio" name="gender" value="male">Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" value="female">Female
+            </label>
+            <hr>
+
+            <label for="">Who would you ban in a ranked game?</label>
+            <label for="amaru">
+                <input type="checkbox" id="attack-amaru" name="amaru" value="Bike">AMARU
+            </label>
+
+            <label for="tcher">
+                <input type="checkbox" id="attack-tcher" name="tcher" value="thatcher">THATCHER
+            </label>
+
+            <label for="lord">
+                <input type="checkbox" id="defend-lord" name="lord" value="theLord">THE LORD
+            </label> 
+
+            <label for="jager">
+                <input type="checkbox" id="defend-jager" name="jager" value="jager">JÄGER
+            </label>
+
+            <br>
+            <label for="comm">Any other comments?</label>
+            <textarea name="comm" id="comments" cols="89" rows="4" placeholder="Enter your comments here..."></textarea>
+
+            <button id="submit" type="submit">
+                Submit
+            </button>
+        </form>
+    </main>
+    <script>
+
+    </script>
+</body>
+
+</html>
